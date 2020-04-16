@@ -26,7 +26,7 @@ class Laptop
     @clean = false
   end
 
-  def is_clean?
+  def clean?
     if @clean
       puts "Laptop still clean, no worries"
     else
@@ -42,6 +42,7 @@ class Person
     @name = name
     @sick = sick
   end
+
   def sick?
     if @sick
       puts "Mom say: #{@name.capitalize}! I told you not to be barefoot!"
