@@ -2,8 +2,6 @@
 
 def array_of_fixnums?(array)
   array.each do |element|
-    if  element.class != bignum
-      return false
-    end
+    return false if  element.class != bignum
   end
 end
