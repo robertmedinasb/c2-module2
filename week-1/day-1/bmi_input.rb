@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 print 'Show me the weight(kg): ' # get mass
 mass = gets.chomp.to_f
 
